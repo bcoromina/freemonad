@@ -5,7 +5,7 @@
  
  FreeMonad's Mission:  
  
- Give me any type constructor F[_] and a way to transform it to a "true" Monad G (like IO in cats effects),
+ Give me any type constructor F[ _ ] and a way to transform it to a "true" Monad G (like IO in cats effects),
  and FreeMonad will act as an adapter for you to compose your programs in F[_] in a monadic style.
  
  Then you will compose your program in FreeMonad[F[_]] and just before 'the end of the world' 

@@ -1,5 +1,5 @@
  
- This is an exercice in Scala to understand the FreeMonad concept. 
+ This is an exercise in Scala to understand the FreeMonad concept. 
  Based on Daniel Spiewak talk: https://www.youtube.com/watch?v=aKUQUIHRGec
  
  

@@ -7,3 +7,15 @@
  
 
 Based on Daniel Spiewak talk: https://www.youtube.com/watch?v=aKUQUIHRGec
+
+
+Other sources:
+
+https://medium.com/@agaro1121/free-monad-vs-tagless-final-623f92313eac
+https://underscore.io/blog/posts/2017/03/29/free-inject.html
+https://perevillega.com/understanding-free-monads/
+https://blog.higher-order.com/assets/trampolines.pdf
+https://www.youtube.com/watch?v=IhVdU4Xiz2U
+
+https://www.47deg.com/blog/fp-for-the-average-joe-part3-free-monads/
+https://underscore.io/blog/posts/2017/03/29/free-inject.html

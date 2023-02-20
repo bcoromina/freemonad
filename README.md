@@ -1,12 +1,16 @@
- FreeMonad's Mission: Give me a type constructor F[_], a type A. And give me a 
- Natural Transformation from F[_] to G[_] (where G is a Monad)
- and I will wrap F in a FreeMonad so you can use it like a Monad.
- Then you will compose your program in F and just before the eend of the world 
- programInF.foldMap(NaturalTransformation) will give you a program in G. 
- If G is cats's IO, you can run it with unsafeRunSync
  
-
-Based on Daniel Spiewak talk: https://www.youtube.com/watch?v=aKUQUIHRGec
+ This is an exercice in Scala to understand the FreeMonad concept. 
+ Based on Daniel Spiewak talk: https://www.youtube.com/watch?v=aKUQUIHRGec
+ 
+ 
+ FreeMonad's Mission:  
+ 
+ Give me any type constructor F[_] and a way to transform it to a "true" Monad G (like IO in cats effects),
+ and FreeMonad will act as an adapter for you to compose your programs in F[_] in a monadic style.
+ 
+ Then you will compose your program in FreeMonad[F[_]] and just before 'the end of the world' 
+ you will transform it into a program in G. If G is cats's IO, you can run it with unsafeRunSync.
+ 
 
 
 Other sources:
